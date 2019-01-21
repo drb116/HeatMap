@@ -20,7 +20,7 @@ import javafx.util.Duration;
 public class PaneOrganizer {
 	private FlowPane main;
 	int count;
-	public PaneOrganizer() throws IOException, JSONException, InterruptedException{
+	public PaneOrganizer() throws IOException, Exception, InterruptedException{
 		main = new FlowPane();
 		main.setVgap(1);
 		main.setHgap(1);

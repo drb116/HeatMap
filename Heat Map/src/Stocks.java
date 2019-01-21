@@ -109,8 +109,7 @@ public class Stocks {
        }
        
     	    return stockMap;
-   //    System.out.println(stockMap);
-   //    System.out.println(stockMap.size());
+ 
 	}
 
 	public static Map<String,String> getDetails(String key) throws JSONException, IOException{
